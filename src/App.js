@@ -24,7 +24,7 @@ function App() {
       <div className="app">
         {user?(
         <Routes>
-          <Route path="/chatpage" element={<ChatPage urrentUser={user} signOut={signOut}/>}/>
+          <Route path="/chatpage" element={<ChatPage currentUser={user} signOut={signOut}/>}/>
           <Route path="/" element={<Home currentUser={user} signOut={signOut}/>}/>
         </Routes>
         ): (
